@@ -75,11 +75,13 @@ p {
 }
 
 #map {
-  position:relative;
-  display: flex;
-  justify-content: center;
+  position: relative;
   width: 1000px;
-  height: 750px;
+  height: 786px;
+}
+
+#map_img {
+  position: absolute;
 }
 
 #map_info1 {
