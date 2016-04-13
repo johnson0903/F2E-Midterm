@@ -80,15 +80,22 @@ nav {
 
 /* Slider style*/
 .slider{
+  width: 100%;
   position: relative;
 }
 .slide{
+  display: none;
+  position: absolute;
   width: 100%;
   height: auto;
 }
 
 .slide img{
   width: 100%;
+}
+
+.active-slide{
+  display: block;
 }
 
 #left-arrow{
