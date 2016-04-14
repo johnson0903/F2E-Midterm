@@ -34,7 +34,7 @@ header {
 }
 
 #logo {
-  margin-left: 15%;
+  margin-left: 2%;
 }
 
 #logo div {
@@ -83,9 +83,8 @@ nav {
 
 /* Slider style*/
 .slider{
-  display: flex;
   width: 100%;
-  height: 730px;
+  height: 850px;
   position: relative;
 }
 
@@ -93,12 +92,12 @@ nav {
   display: none;
   position: absolute;
   width: 100%;
-  height: auto;
+  height: 850px;
 }
 
 .slide img{
   width: 100%;
-  height: inherit;
+  height: 850px;
 }
 
 .active-slide{
