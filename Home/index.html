@@ -6,27 +6,29 @@
     <link type="text/css" rel="stylesheet" href="CSS/stylesheet.css"/>
     <script src="jquery-1.12.2.min.js"</script>
     <script src="JS/app.js"</script>
-
 </head>
 
 <body>
   <header>
-    <img  id="logo" src="images/map-logo.png" alt="map-logo.png">
-    <img  id="logo_words" src="images/logo_words.png" alt="logo_words.png">
+    <a id="logo" href="../Home/index.html">
+      <div>
+        <img src="images/map-logo.png" alt="map-logo.png">
+        <img src="images/logo_words.png" alt="logo_words.png">
+      </div>
+    </a>
   </header>
 
   <nav>
     <ul class="menu">
-      <li id="first-item"><a href="../Page1/index.html">導覽首頁</a></li>
+      <li id="first-item"><a href="../Map/index.html">地圖導覽</a></li>
       <li><a href="../About us/index.html">關於我們</a></li>
-      <li><a href="../Page3/index.html">服務項目</a></li>
-      <li><a href="../Page4/index.html">校園周遭</a></li>
-      <li><a href="../Page5/index.html">聯絡我們</a></li>
+      <li><a href="../Service/index.html">服務項目</a></li>
+      <li><a href="../Around/index.html">校園周遭</a></li>
+      <li><a href="../Contact/index.html">聯絡我們</a></li>
     </ul>
   </nav>
 
   <div class="slider">
-
     <div class="slide active-slide">
       <img src="images/slide1.jpg" alt="slide1.jpg">
     </div>
@@ -38,7 +40,12 @@
     <div class="slide">
       <img src="images/slide3.jpg" alt="slide3.jpg">
     </div>
+    <div id="slide_words"><p>Play NTUT</p></div>
+  </div>
 
+  <div id="content">
+    <p>精彩旅程，從北科開始</p>
+    <p>我猜您想去...</p>
   </div>
 
   <div class="arrow left-arrow"></div>
