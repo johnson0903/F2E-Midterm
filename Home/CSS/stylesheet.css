@@ -73,19 +73,23 @@ header {
   margin-left: auto;
   margin-right: auto;
   width: 1631px;
-  height: auto;
+  height: 1000px;
 }
 .slider{
-  margin-left: auto;
-  margin-right: auto;
-  height: 850px;
   position: relative;
+  width:100%;
+  height: 850px;
 }
 
 .slide{
   display: none;
-  height: 850px;
+  width: inherit;
   position: absolute;
+}
+
+.slide img{
+  max-width: 100%;
+  height: auto;
 }
 
 .active-slide{
