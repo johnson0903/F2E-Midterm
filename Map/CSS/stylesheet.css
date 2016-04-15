@@ -127,27 +127,128 @@ nav {
 
 #place1 {
   margin: 100px auto auto 95px;
-  background-color: white;
-  position: absolute;
 }
 
 #place2 {
   margin: 165px auto auto 65px;
-  background-color: white;
-  position: absolute;
 }
 
 #place3{
   margin: 90px auto auto 215px;
-  background-color: white;
-  position: absolute;
 }
 
 #place4{
   margin: 150px auto auto 215px;
-  background-color: white;
-  position: absolute;
 }
+
+#place5{
+  margin: 100px auto auto 315px;
+}
+
+#place6{
+  margin: 150px auto auto 320px;
+}
+
+#place7{
+  margin: 150px auto auto 430px;
+}
+
+#place8 {
+  margin: 280px auto auto 95px;
+}
+
+#place9 {
+  margin: 355px auto auto 95px;
+}
+
+#place10 {
+  margin: 450px auto auto 120px;
+}
+
+#place11 {
+  margin: 255px auto auto 210px;
+  font-size: 13px;
+}
+
+#place12 {
+  margin: 330px auto auto 220px;
+  font-size: 13px;
+}
+
+#place13 {
+  margin: 255px auto auto 330px;
+}
+
+#place14 {
+  margin: 330px auto auto 300px;
+}
+
+#place15 {
+  margin: 390px auto auto 335px;
+}
+
+#place16 {
+  margin: 480px auto auto 340px;
+}
+
+#place17 {
+  margin: 300px auto auto 405px;
+}
+
+#place18 {
+  margin: 255px auto auto 490px;
+}
+
+#place19 {
+  margin: 380px auto auto 480px;
+}
+
+#place20 {
+  margin: 440px auto auto 485px;
+}
+
+#place21 {
+  margin: 237px auto auto 650px;
+}
+
+#place22 {
+  margin: 440px auto auto 680px;
+}
+
+#place23 {
+  margin: 200px auto auto 836px;
+}
+
+#place24 {
+  margin: 184px auto auto 968px;
+}
+
+#place25 {
+  margin: 298px auto auto 828px;
+}
+
+#place26 {
+  margin: 280px auto auto 885px;
+}
+
+#place27 {
+  margin: 265px auto auto 960px;
+}
+
+#place28 {
+  margin: 470px auto auto 897px;
+}
+
+#place29 {
+  margin: 420px auto auto 970px;
+  font-size: 15px;
+}
+
+#place30 {
+  margin: 550px auto auto 991px;
+}
+
+
 
 #new_items_title {
   margin: 20px;
