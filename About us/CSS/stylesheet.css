@@ -7,8 +7,6 @@ body {
 
 p {
   font-family: Arial;
-  margin: 0;
-  padding: 0;
 }
 
 a {
@@ -19,6 +17,10 @@ ul{
   list-style: none;
   margin: 0;
   padding: 0;
+}
+
+.Arial{
+  font-family: Arial;
 }
 
 /* Header style*/
@@ -72,9 +74,34 @@ header {
 /* Container style*/
 .container{
   width: 1000px;
-  margin-top: 20px;
+  margin-top: 15px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.title{
+  display: flex;
+  border-bottom: 2px solid rgb(141, 194, 208);
+  width: 250px;
+}
+
+.title h2{
+  margin-right: 10px;
+  margin-bottom: 5px;
+}
+
+.text{
+  padding-left: 2em;
+}
+
+.text p{
+  font-family: 微軟正黑體;
+  line-height: 2em;
+}
+
+.first-text{
+  margin-left: 20px;
+  font-size: 2em;
 }
 
 #footer {
@@ -89,6 +116,11 @@ header {
   font-size: 16px;
   color: white;
   line-height: 30px;
+}
+
+#footer_copyrights p{
+  margin: 0;
+  padding: 0;
 }
 
 #footer_shares {
