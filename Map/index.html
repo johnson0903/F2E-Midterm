@@ -1,127 +1,306 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>北科 Tour Guide</title>
-    <link type="text/css" rel="stylesheet" href="CSS/stylesheet.css"/>
+    <link type="text/css" rel="stylesheet" href="CSS/stylesheet.css" />
     <script src="JS/jquery-1.12.2.min.js"></script>
     <script src="JS/app.js"></script>
 </head>
 
 <body>
-  <header>
-    <a id="logo" href="../Home/index.html">
-      <div>
-        <img src="images/logo_words.png" alt="logo_words.png">
-      </div>
-    </a>
-  </header>
+    <header>
+        <a id="logo" href="../Home/index.html">
+            <div>
+                <img src="images/logo_words.png" alt="logo_words.png">
+            </div>
+        </a>
+    </header>
 
     <nav class="site-nav">
-      <ul>
-        <li><a id="first-item" href="../Map/index.html">漫遊校園</a></li>
-        <li><a href="../Around/index.html">周遭景點</a></li>
-        <li><a href="../About Us/index.html">關於我們</a></li>
-        <li><a href="../FAQ/index.html">常見問題</a></li>
-        <li><a href="../Contact/index.html">聯絡我們</a></li>
-      </ul>
+        <ul>
+            <li><a id="first-item" href="../Map/index.html">漫遊校園</a></li>
+            <li><a href="../Around/index.html">周遭景點</a></li>
+            <li><a href="../About Us/index.html">關於我們</a></li>
+            <li><a href="../FAQ/index.html">常見問題</a></li>
+            <li><a href="../Contact/index.html">聯絡我們</a></li>
+        </ul>
     </nav>
 
-  <div id="base">
+    <div id="base">
 
-    <div id="map">
-      <img id="map_img" src="images/campusMap.jpg" alt="campusMap.jpg"/>
-      <div class ="map_info" id="place1">
-        <p>光華館</p>
-        <div class ="map_info_pop_up">
-          <h1>光華館</h1>
-          <p>毫無反應，就只是個光華館</p>
-        </div>
-      </div>
-      <div class ="map_info" id="place2">
-        <p>國父百年紀念館</p>
-        <div class ="map_info_pop_up">
-          <h1>國父百年紀念館</h1>
-          <p>毫無反應，就只是個國父百年紀念館</p>
-        </div>
-      </div>
-      <div class ="map_info" id="place3"><p>裕隆科技</p><p>研究大樓</p></div>
-      <div class ="map_info" id="place4"><p>第六</p><p>教學大樓</p></div>
-      <div class ="map_info" id="place5"><p>校友會館</p></div>
-      <div class ="map_info" id="place6"><p>化學工程館</p></div>
-      <div class ="map_info" id="place7"><p>分子科學與工程館</p></div>
-      <div class ="map_info" id="place8"><p>土木館</p></div>
-      <div class ="map_info" id="place9"><p>材資館</p></div>
-      <div class ="map_info" id="place10"><p>設計館</p></div>
-      <div class ="map_info" id="place11"><p>第一教學大樓</p></div>
-      <div class ="map_info" id="place12"><p>第</p><p>四</p><p>教</p><p>學</p><p>大</p><p>樓</p></div>
-      <div class ="map_info" id="place13"><p>第二教學大樓</p></div>
-      <div class ="map_info" id="place14"><p>迴廊</p></div>
-      <div class ="map_info" id="place15"><p>第三教學大樓</p></div>
-      <div class ="map_info" id="place16"><p>共同科館</p></div>
-      <div class ="map_info" id="place17"><p>紅樓</p></div>
-      <div class ="map_info" id="place18"><p>化學館</p></div>
-      <div class ="map_info" id="place19"><p>圖書館</p></div>
-      <div class ="map_info" id="place20"><p>行政大樓</p></div>
-      <div class ="map_info" id="place21"><p>中正紀念館</p></div>
-      <div class ="map_info" id="place22"><p>綜合科館</p></div>
-      <div class ="map_info" id="place23"><p>學生宿舍</p></div>
-      <div class ="map_info" id="place24"><p>學生宿舍</p></div>
-      <div class ="map_info" id="place25"><p>排球場</p></div>
-      <div class ="map_info" id="place26"><p>網球場</p></div>
-      <div class ="map_info" id="place27"><p>籃球場</p></div>
-      <div class ="map_info" id="place28"><p>操</p><p>&nbsp</p><p>場</p></div>
-      <div class ="map_info" id="place29"><p>興建中教學大樓</p></div>
-      <div class ="map_info" id="place30"><p>億光大樓</p></div>
-    </div>
-
-    <div id="new_items_title">
-      <p class="new_items_title">NEWS</p>
-    </div>
-
-    <div id="new_items">
-        <div>
-            <img src="images/new_item1.jpg" alt="new_item1"/>
-            <div class="new_item_info">
-              <p>2016.4.5</p>
-              <p>【道具】波利卡片</p>
-              <p>偉大的第三行</p>
+        <div id="map">
+            <img id="map_img" src="images/campusMap.jpg" alt="campusMap.jpg" />
+            <div class="map_info" id="place1">
+                <p>光華館</p>
+                <div class="map_info_pop_up">
+                    <h1>光華館</h1>
+                    <p>毫無反應，就只是個光華館</p>
+                </div>
+            </div>
+            <div class="map_info" id="place2">
+                <p>國父百年紀念館</p>
+                <div class="map_info_pop_up">
+                    <h1>國父百年紀念館</h1>
+                    <p>毫無反應，就只是個國父百年紀念館</p>
+                </div>
+            </div>
+            <div class="map_info" id="place3">
+                <p>裕隆科技</p>
+                <p>研究大樓</p>
+                <div class="map_info_pop_up">
+                    <h1>裕隆科技研究大樓</h1>
+                    <p>毫無反應，就只是個裕隆科技研究大樓</p>
+                </div>
+            </div>
+            <div class="map_info" id="place4">
+                <p>第六</p>
+                <p>教學大樓</p>
+                <div class="map_info_pop_up">
+                    <h1>第六教學大樓</h1>
+                    <p>毫無反應，就只是個第六教學大樓</p>
+                </div>
+            </div>
+            <div class="map_info" id="place5">
+                <p>校友會館</p>
+                <div class="map_info_pop_up">
+                    <h1>校友會館</h1>
+                    <p>毫無反應，就只是個校友會館</p>
+                </div>
+            </div>
+            <div class="map_info" id="place6">
+                <p>化學工程館</p>
+                <div class="map_info_pop_up">
+                    <h1>化學工程館</h1>
+                    <p>毫無反應，就只是個化學工程館</p>
+                </div>
+            </div>
+            <div class="map_info" id="place7">
+                <p>分子科學與工程館</p>
+                <div class="map_info_pop_up">
+                    <h1>分子科學與工程館</h1>
+                    <p>毫無反應，就只是個分子科學與工程館</p>
+                </div>
+            </div>
+            <div class="map_info" id="place8">
+                <p>土木館</p>
+                <div class="map_info_pop_up">
+                    <h1>土木館</h1>
+                    <p>毫無反應，就只是個土木館</p>
+                </div>
+            </div>
+            <div class="map_info" id="place9">
+                <p>材資館</p>
+                <div class="map_info_pop_up">
+                    <h1>材資館</h1>
+                    <p>毫無反應，就只是個材資館</p>
+                </div>
+            </div>
+            <div class="map_info" id="place10">
+                <p>設計館</p>
+                <div class="map_info_pop_up">
+                    <h1>設計館</h1>
+                    <p>毫無反應，就只是個設計館</p>
+                </div>
+            </div>
+            <div class="map_info" id="place11">
+                <p>第一教學大樓</p>
+                <div class="map_info_pop_up">
+                    <h1>第一教學大樓</h1>
+                    <p>毫無反應，就只是個第一教學大樓</p>
+                </div>
+            </div>
+            <div class="map_info" id="place12">
+                <p>第</p>
+                <p>四</p>
+                <p>教</p>
+                <p>學</p>
+                <p>大</p>
+                <p>樓</p>
+                <div class="map_info_pop_up">
+                    <h1>第四教學大樓</h1>
+                    <p>毫無反應，就只是個第四教學大樓</p>
+                </div>
+            </div>
+            <div class="map_info" id="place13">
+                <p>第二教學大樓</p>
+                <div class="map_info_pop_up">
+                    <h1>第二教學大樓</h1>
+                    <p>毫無反應，就只是個第四教學大樓</p>
+                </div>
+            </div>
+            <div class="map_info" id="place14">
+                <p>迴廊</p>
+                <div class="map_info_pop_up">
+                    <h1>迴廊</h1>
+                    <p>毫無反應，就只是個迴廊</p>
+                </div>
+            </div>
+            <div class="map_info" id="place15">
+                <p>第三教學大樓</p>
+                <div class="map_info_pop_up">
+                    <h1>第三教學大樓</h1>
+                    <p>毫無反應，就只是個第三教學大樓</p>
+                </div>
+            </div>
+            <div class="map_info" id="place16">
+                <p>共同科館</p>
+                <div class="map_info_pop_up">
+                    <h1>共同科館</h1>
+                    <p>毫無反應，就只是個共同科館</p>
+                </div>
+            </div>
+            <div class="map_info" id="place17">
+                <p>紅樓</p>
+                <div class="map_info_pop_up">
+                    <h1>紅樓</h1>
+                    <p>毫無反應，就只是個紅樓</p>
+                </div>
+            </div>
+            <div class="map_info" id="place18">
+                <p>化學館</p>
+                <div class="map_info_pop_up">
+                    <h1>化學館</h1>
+                    <p>毫無反應，就只是個化學館</p>
+                </div>
+            </div>
+            <div class="map_info" id="place19">
+                <p>圖書館</p>
+                <div class="map_info_pop_up">
+                    <h1>圖書館</h1>
+                    <p>毫無反應，就只是個圖書館</p>
+                </div>
+            </div>
+            <div class="map_info" id="place20">
+                <p>行政大樓</p>
+                <div class="map_info_pop_up">
+                    <h1>行政大樓</h1>
+                    <p>毫無反應，就只是個行政大樓</p>
+                </div>
+            </div>
+            <div class="map_info" id="place21">
+                <p>中正紀念館</p>
+                <div class="map_info_pop_up">
+                    <h1>中正紀念館</h1>
+                    <p>毫無反應，就只是個中正紀念館</p>
+                </div>
+            </div>
+            <div class="map_info" id="place22">
+                <p>綜合科館</p>
+                <div class="map_info_pop_up">
+                    <h1>綜合科館</h1>
+                    <p>毫無反應，就只是個綜合科館</p>
+                </div>
+            </div>
+            <div class="map_info" id="place23">
+                <p>學生宿舍</p>
+                <div class="map_info_pop_up">
+                    <h1>學生宿舍</h1>
+                    <p>毫無反應，就只是個學生宿舍</p>
+                </div>
+            </div>
+            <div class="map_info" id="place24">
+                <p>學生宿舍</p>
+                <div class="map_info_pop_up">
+                    <h1>學生宿舍</h1>
+                    <p>毫無反應，就只是個學生宿舍</p>
+                </div>
+            </div>
+            <div class="map_info" id="place25">
+                <p>排球場</p>
+                <div class="map_info_pop_up">
+                    <h1>排球場</h1>
+                    <p>毫無反應，就只是個排球場</p>
+                </div>
+            </div>
+            <div class="map_info" id="place26">
+                <p>網球場</p>
+                <div class="map_info_pop_up">
+                    <h1>網球場</h1>
+                    <p>毫無反應，就只是個網球場</p>
+                </div>
+            </div>
+            <div class="map_info" id="place27">
+                <p>籃球場</p>
+                <div class="map_info_pop_up">
+                    <h1>籃球場</h1>
+                    <p>毫無反應，就只是個籃球場</p>
+                </div>
+            </div>
+            <div class="map_info" id="place28">
+                <p>操</p>
+                <p>&nbsp</p>
+                <p>場</p>
+                <div class="map_info_pop_up">
+                    <h1>操場</h1>
+                    <p>毫無反應，就只是個操場</p>
+                </div>
+            </div>
+            <div class="map_info" id="place29">
+                <p>興建中教學大樓</p>
+                <div class="map_info_pop_up">
+                    <h1>興建中教學大樓</h1>
+                    <p>毫無反應，就只是個興建中教學大樓</p>
+                </div>
+            </div>
+            <div class="map_info" id="place30">
+                <p>億光大樓</p>
+                <div class="map_info_pop_up">
+                    <h1>億光大樓</h1>
+                    <p>毫無反應，就只是個億光大樓</p>
+                </div>
             </div>
         </div>
-        <div>
-            <img src="images/new_item2.jpg" alt="new_item2"/>
-            <div class="new_item_info">
-              <p>2016.4.5</p>
-              <p>【道具】土波利卡片</p>
-              <p>無意義的第三行</p>
+
+        <div id="new_items_title">
+            <p class="new_items_title">NEWS</p>
+        </div>
+
+        <div id="new_items">
+            <div>
+                <img src="images/new_item1.jpg" alt="new_item1" />
+                <div class="new_item_info">
+                    <p>2016.4.5</p>
+                    <p>【道具】波利卡片</p>
+                    <p>偉大的第三行</p>
+                </div>
+            </div>
+            <div>
+                <img src="images/new_item2.jpg" alt="new_item2" />
+                <div class="new_item_info">
+                    <p>2016.4.5</p>
+                    <p>【道具】土波利卡片</p>
+                    <p>無意義的第三行</p>
+                </div>
+            </div>
+            <div>
+                <img src="images/new_item3.jpg" alt="new_item3" />
+                <div class="new_item_info">
+                    <p>2016.4.5</p>
+                    <p>【道具】波波利卡片</p>
+                    <p>補字補字補字補字</p>
+                </div>
             </div>
         </div>
-        <div>
-            <img src="images/new_item3.jpg" alt="new_item3"/>
-            <div class="new_item_info">
-              <p>2016.4.5</p>
-              <p>【道具】波波利卡片</p>
-              <p>補字補字補字補字</p>
-            </div>
+
+    </div>
+
+    <div id="footer">
+        <div id="footer_copyrights">
+            <p>24小時免付費諮詢熱線：(886-2)2771-217</p>
+            <p>國立台北科技大學 地址：10608台北市忠孝東路三段一號</p>
+            <p>建議瀏覽器：IE7.0 以上版本‧最佳螢幕解析度 1024x768</p>
+        </div>
+
+        <div id="footer_shares">
+            <p>SHARE</p>
+            <img src="images/facebook.png" alt="facebook.png" />
+            <img src="images/tweet.png" alt="tweet.png" />
+            <img src="images/google+.png" alt="google+.png" />
         </div>
     </div>
-
-  </div>
-
-  <div id="footer">
-    <div id="footer_copyrights">
-      <p>24小時免付費諮詢熱線：(886-2)2771-217</p>
-      <p>國立台北科技大學  地址：10608台北市忠孝東路三段一號</p>
-      <p>建議瀏覽器：IE7.0 以上版本‧最佳螢幕解析度 1024x768</p>
-    </div>
-
-    <div id="footer_shares">
-      <p>SHARE</p>
-      <img src="images/facebook.png" alt="facebook.png"/>
-      <img src="images/tweet.png" alt="tweet.png"/>
-      <img src="images/google+.png" alt="google+.png"/>
-    </div>
-  </div>
 
 </body>
+
 </html>
