@@ -1,0 +1,21 @@
+diff a/Map/CSS/stylesheet.css b/Map/CSS/stylesheet.css	(rejected hunks)
+@@ -115,6 +115,19 @@
+   cursor: pointer;
+ }
+ 
++.map_info_pop_up {
++  position: absolute;
++  display: none;
++  width: 200px;
++  height: 200px;
++  background-color: white;
++  z-index: 20;
++}
++
++.activemap_info_pop_up {
++  display: block;
++}
++
+ #place1 {
+   margin: 100px auto auto 95px;
+ }
