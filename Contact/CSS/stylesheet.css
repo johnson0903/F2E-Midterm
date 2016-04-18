@@ -71,20 +71,48 @@ header {
 /*main area*/
 .container{
   width: 1000px;
-  margin-top: 30px;
+  margin-top: 50px;
   margin-bottom: 30px;
   margin-left: auto;
   margin-right: auto;
 }
 
-.members {
-  margin-top: 100px;
-  margin-bottom: 100px;
-  display: flex;
+.container h1{
+  margin-left: -30px;
+  margin-bottom: 5px;
+  font-size: 3rem;
+  font-family: Arial;
+  font-weight: lighter;
 }
 
-.member_data {
-  padding: 30px;
+.container h2{
+  margin-left: -30px;
+  font-family: 微軟正黑體;
+}
+
+.members{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.members p{
+  margin-top: 5px;
+  margin-bottom: 3px;
+  font-size: 22px;
+}
+
+.members span{
+  color: rgb(73, 73, 73);
+}
+
+.profile{
+  width: 1000px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-around;
 }
 
 #footer {
