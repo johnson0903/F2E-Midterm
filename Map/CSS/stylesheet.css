@@ -74,26 +74,6 @@ header {
   margin: auto;
 }
 
-#menu_Home {
-  background-color: rgb(244, 177, 131);
-}
-
-#menu_AboutUs {
-  background-color: rgb(157, 195, 230);
-}
-
-#menu_Services {
-  background-color: rgb(169, 209, 142);
-}
-
-#menu_Portfolio {
-  background-color: rgb(225, 187, 72);
-}
-
-#menu_Contact {
-  background-color: rgb(246, 101, 168);
-}
-
 #map {
   position: relative;
   width: 100%;
@@ -110,7 +90,8 @@ header {
 }
 
 .map_info:hover {
-  background-color: blue;
+  background-color: rgb(100, 100, 100);;
+  color: white;
   cursor: pointer;
 }
 
@@ -118,14 +99,23 @@ header {
   position: absolute;;
   display: none;
   width: 300px;
-  height: 300px;
-  background-color: white;
+  height: 200px;
+  background-color: orange;
+  color: black;
   z-index: 20;
+  border-radius: 10px;
 }
 
 .active-map_info_pop_up {
   display: block;
   margin: 50px auto auto -150px;
+}
+
+.active-map_info_pop_up img {
+  margin-top: 10px;
+  margin-bottom: 3px;
+  width: 92%;
+  height: auto;
 }
 
 #place1 {
@@ -157,7 +147,7 @@ header {
 }
 
 #place8 {
-  margin: 280px auto auto 95px;
+  margin: 280px auto auto 80px;
 }
 
 #place9 {
@@ -165,7 +155,7 @@ header {
 }
 
 #place10 {
-  margin: 450px auto auto 120px;
+  margin: 450px auto auto 105px;
 }
 
 #place11 {
@@ -249,32 +239,6 @@ header {
 
 #place30 {
   margin: 550px auto auto 991px;
-}
-
-
-
-#new_items_title {
-  margin: 20px;
-  color: red;
-  font-size: 36px;
-}
-
-#new_items {
-  display: flex;
-  justify-content: space-around;
-	width: 100%;
-}
-
-.new_item_info {
-  margin-top: -5px;
-  height: 110px;
-  border-radius: 5px;
-  padding: 20px;
-  background-color: white;
-}
-
-.new_item_info > p{
-  line-height: 30px;
 }
 
 #footer {
