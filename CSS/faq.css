@@ -23,10 +23,6 @@ ul {
 .col-xs-6 {
     width: 90%;
 }
-.KUSO_picture {
-    margin: 0px auto 20px 30px;
-}
-
 /* Header style*/
 
 header {
@@ -87,7 +83,7 @@ header {
     margin-left: auto;
     margin-right: auto;
     width: 68%;
-    height: 850px;
+    height: 300px;
 }
 .row {
     margin: 0;
