@@ -6,7 +6,7 @@ body {
 }
 
 p {
-  font-family: Arial;
+  font-family: 微軟正黑體;
   margin: 0;
   padding: 0;
 }
@@ -77,19 +77,21 @@ header {
 
 /*main area*/
 #base {
-	width: 1120px;
+	width: 960px;
   margin: auto;
 }
 
 #map {
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin-top: 40px;
+  margin-bottom: 50px;
   position: relative;
   width: 100%;
-  height: 680px;
+  height: 582px;
 }
 
 #map_img {
+  width: 960px;
+  height: auto;
   position: absolute;
 }
 
@@ -110,6 +112,7 @@ header {
   width: 300px;
   height: 200px;
   background-color: orange;
+  font-size: 16px;
   color: black;
   z-index: 20;
   border-radius: 10px;
@@ -128,126 +131,126 @@ header {
 }
 
 #place1 {
-  margin: 100px auto auto 95px;
+  margin: 80px auto auto 80px;
 }
 
 #place2 {
-  margin: 165px auto auto 65px;
+  margin: 138px auto auto 54px;
+  font-size: 14px;
 }
 
 #place3{
-  margin: 90px auto auto 215px;
+  margin: 60px auto auto 180px;
 }
 
 #place4{
-  margin: 150px auto auto 215px;
+  margin: 125px auto auto 195px;
 }
 
 #place5{
-  margin: 100px auto auto 315px;
+  margin: 85px auto auto 270px;
 }
 
 #place6{
-  margin: 150px auto auto 320px;
+  margin: 125px auto auto 270px;
 }
 
 #place7{
-  margin: 150px auto auto 430px;
+  margin: 127px auto auto 370px;
+  font-size: 13px;
 }
 
 #place8 {
-  margin: 280px auto auto 80px;
+  margin: 238px auto auto 65px;
 }
 
 #place9 {
-  margin: 355px auto auto 95px;
+  margin: 301px auto auto 80px;
 }
 
 #place10 {
-  margin: 450px auto auto 105px;
+  margin: 385px auto auto 85px;
 }
 
 #place11 {
-  margin: 255px auto auto 210px;
-  font-size: 13px;
+  margin: 216px auto auto 195px;
 }
 
 #place12 {
-  margin: 330px auto auto 220px;
-  font-size: 13px;
+  margin: 300px auto auto 184px;
 }
 
 #place13 {
-  margin: 255px auto auto 330px;
+  margin: 215px auto auto 310px;
 }
 
 #place14 {
-  margin: 330px auto auto 300px;
+  margin: 278px auto auto 260px;
 }
 
 #place15 {
-  margin: 390px auto auto 335px;
+  margin: 332px auto auto 315px;
 }
 
 #place16 {
-  margin: 480px auto auto 340px;
+  margin: 410px auto auto 290px;
 }
 
 #place17 {
-  margin: 300px auto auto 405px;
+  margin: 254px auto auto 345px;
 }
 
 #place18 {
-  margin: 255px auto auto 490px;
+  margin: 215px auto auto 418px;
 }
 
 #place19 {
-  margin: 380px auto auto 480px;
+  margin: 320px auto auto 405px;
 }
 
 #place20 {
-  margin: 440px auto auto 485px;
+  margin: 370px auto auto 412px;
 }
 
 #place21 {
-  margin: 237px auto auto 650px;
+  margin: 200px auto auto 550px;
 }
 
 #place22 {
-  margin: 440px auto auto 680px;
+  margin: 370px auto auto 582px;
 }
 
 #place23 {
-  margin: 200px auto auto 836px;
+  margin: 172px auto auto 710px;
 }
 
 #place24 {
-  margin: 184px auto auto 968px;
+  margin: 154px auto auto 822px;
 }
 
 #place25 {
-  margin: 298px auto auto 828px;
+  margin: 245px auto auto 705px;
 }
 
 #place26 {
-  margin: 280px auto auto 885px;
+  margin: 240px auto auto 755px;
 }
 
 #place27 {
-  margin: 265px auto auto 960px;
+  margin: 230px auto auto 820px;
 }
 
 #place28 {
-  margin: 470px auto auto 897px;
+  margin: 400px auto auto 768px;
 }
 
 #place29 {
-  margin: 420px auto auto 970px;
+  margin: 355px auto auto 847px;
   font-size: 15px;
 }
 
 #place30 {
-  margin: 550px auto auto 991px;
+  margin: 475px auto auto 845px;
 }
 
 #footer {

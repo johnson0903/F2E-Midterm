@@ -6,8 +6,9 @@ body {
     background-color: #f0ede5;
 }
 p {
-    font-family: Arial;
-    margin: 0;
+  font-family: 微軟正黑體;
+  margin: 0;
+  padding: 0;
 }
 a {
     text-decoration: none;
