@@ -7,6 +7,8 @@ body {
 
 p {
   font-family: Arial;
+  margin: 0;
+  padding: 0;
 }
 
 a {
@@ -51,6 +53,12 @@ header {
 
 .site-nav ul{
   display: flex;
+  justify-content: space-between;
+  width: 960px;
+}
+
+.site-nav ul li{
+  width: 100%;
 }
 
 .site-nav li:hover{
@@ -60,8 +68,9 @@ header {
 .site-nav a {
 	display: block;
 	color: white;
-	padding: 20px 60px;
+	padding: 20px 50px;
   border-left: 1px solid #585858;
+  box-sizing: border-box;
   font-size: 20px;
   font-family: 微軟正黑體;
 }
@@ -73,13 +82,24 @@ header {
 
 /* Container style*/
 .container{
-  width: 1000px;
+  width: 960px;
   margin-top: 30px;
   margin-bottom: 30px;
   margin-left: auto;
   margin-right: auto;
 }
 
+#bg-pic img{
+  width: 100%;
+}
+
+.content{
+  margin-top: 30px;
+}
+.content>div{
+  height: auto;
+  margin-bottom: 20px;
+}
 .title{
   display: flex;
   border-bottom: 2px solid rgb(141, 194, 208);
@@ -93,6 +113,7 @@ header {
 
 .text{
   padding-left: 2em;
+  margin-top: 10px;
 }
 
 .text p{

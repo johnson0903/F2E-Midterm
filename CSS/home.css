@@ -46,6 +46,7 @@ header {
   align-items: center;
 }
 
+
 /* Nav style*/
 .site-nav{
   width: 100%;
@@ -56,6 +57,12 @@ header {
 
 .site-nav ul{
   display: flex;
+  justify-content: space-between;
+  width: 960px;
+}
+
+.site-nav ul li{
+  width: 100%;
 }
 
 .site-nav li:hover{
@@ -65,8 +72,9 @@ header {
 .site-nav a {
 	display: block;
 	color: white;
-	padding: 20px 60px;
+	padding: 20px 50px;
   border-left: 1px solid #585858;
+  box-sizing: border-box;
   font-size: 20px;
   font-family: 微軟正黑體;
 }
