@@ -80,7 +80,7 @@ header {
   margin-left: auto;
   margin-right: auto;
   width: 1631px;
-  height: 1000px;
+  height: 1050px;
 }
 .slider{
   position: relative;
@@ -115,7 +115,7 @@ header {
   left: 45px;
   top: 55%;
   background-image: url(../images/left-arrow.png);
-  background-color: rgba(98, 98, 98, 0.69);
+  background-color: rgba(46, 46, 46, 0.84);
 }
 
 .right-arrow{
@@ -126,11 +126,21 @@ header {
   top: 55%;
   background-image: url(../images/right-arrow.png);
   background-repeat:no-repeat;
-  background-color: rgba(98, 98, 98, 0.69);
+  background-color: rgba(46, 46, 46, 0.84);
 }
 /*main area*/
+#slogen{
+  margin-left: auto;
+  margin-right: auto;
+  width: 67%;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 #slogen h1{
   font-family: 微軟正黑體;
+  margin-right: 50px;
 }
 
 #footer {
