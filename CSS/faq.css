@@ -42,8 +42,6 @@ header {
 }
 
 /* Nav style*/
-
-/* Nav style*/
 .site-nav{
   width: 100%;
   background-color: #e87536;
@@ -78,13 +76,25 @@ header {
     border-left: none;
 }
 
+#question {
+  display: flex;
+  align-items: center;
+  margin: 30px auto 30px 50px;
+}
+
+#question p {
+  margin-left: 50px;
+  font-weight: bolder;
+  font-size: 24px;
+}
+
 /* Artical style*/
 
 .container {
     margin-left: auto;
     margin-right: auto;
-    width: 68%;
-    height: 300px;
+    width: 960px;
+    height: 570px;
 }
 .row {
     margin: 0;
@@ -139,23 +149,31 @@ header {
 /* Footer style*/
 
 #footer {
-    display: flex;
-    justify-content: center;
-    padding: 30px 0;
-    background-color: #6e6a61;
-    width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 30px 0;
+  background-color: #6e6a61;
+	width: 100%;
 }
+
 #footer_copyrights {
-    font-size: 16px;
-    color: white;
-    line-height: 30px;
+  margin-left: 2%;
+  font-size: 16px;
+  color: white;
+  line-height: 30px;
 }
+
+#footer_copyrights p{
+  margin: 0;
+  padding: 0;
+}
+
 #footer_shares {
-    width: 400px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin-left: 200px;
-    font-size: 24px;
-    color: white;
+  width: 400px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 10%;
+  font-size: 24px;
+  color: white;
 }

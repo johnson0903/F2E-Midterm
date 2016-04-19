@@ -5,7 +5,7 @@ var main = function() {
 
     $(this).addClass('current');
     $(this).children('.description').show();
-    $('.container').css("height", "450px"); 
+    $('.container').css("height", "700px"); 
   });
 }
 

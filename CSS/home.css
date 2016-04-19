@@ -137,24 +137,33 @@ header {
 #slogen img {
     margin-right: -100px;
 }
+
 #footer {
-    display: flex;
-    justify-content: center;
-    padding: 30px 0;
-    background-color: #6e6a61;
-    width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 30px 0;
+  background-color: #6e6a61;
+	width: 100%;
 }
+
 #footer_copyrights {
-    font-size: 16px;
-    color: white;
-    line-height: 30px;
+  margin-left: 2%;
+  font-size: 16px;
+  color: white;
+  line-height: 30px;
 }
+
+#footer_copyrights p{
+  margin: 0;
+  padding: 0;
+}
+
 #footer_shares {
-    width: 400px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin-left: 200px;
-    font-size: 24px;
-    color: white;
+  width: 400px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 10%;
+  font-size: 24px;
+  color: white;
 }
